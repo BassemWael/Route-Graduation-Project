@@ -62,6 +62,10 @@ flutter:
   assets:
      - assets/movies.png
      - assets/Group 23.png
+     - assets/Home icon.png
+     - assets/search-2.png
+     - assets/Icon material-movie.png
+     - assets/Icon ionic-md-bookmarks.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

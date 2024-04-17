@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/utils/app_assets.dart';
 import 'package:project/views/home_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -21,19 +22,17 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Column(
-        children: [
-          Spacer(
-            flex: 1,
-          ),
-          Image.asset('assets/movies.png'),
-          Spacer(
-            flex: 1,
-          ),
-          Image.asset('assets/Group 23.png'),
-        ],
-      ),
+    return Column(
+      children: [
+        const Spacer(
+          flex: 1,
+        ),
+        Image.asset(AppAssets.movies),
+        const Spacer(
+          flex: 1,
+        ),
+        Image.asset(AppAssets.route),
+      ],
     );
     ;
   }
