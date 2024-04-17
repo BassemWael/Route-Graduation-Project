@@ -34,6 +34,5 @@ class _SplashScreenState extends State<SplashScreen> {
         Image.asset(AppAssets.route),
       ],
     );
-    ;
   }
 }
